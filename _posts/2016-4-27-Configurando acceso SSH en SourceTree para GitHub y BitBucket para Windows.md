@@ -67,6 +67,18 @@ The key's randomart image is:
 
 ![_config.yml]({{ site.baseurl }}/images/201604271/1.gif)
 
+## Crear un archivo de configuracion SSH
+
+Tenes que crear un archivo llamado **config** (si es que no existe) en el path 
+**C:/Users/your_user_name/.ssh/** con el siguiente contenido:
+
+```
+Host bitbucket.org
+ IdentityFile E:\>shh\sourcetree_rsa
+```
+
+![_config.yml]({{ site.baseurl }}/images/201604271/2.gif)
+
 ## Agregar la clave publica a GitHub o a Bitbucket
 
 ## Configurar SourceTree con la llave privada
