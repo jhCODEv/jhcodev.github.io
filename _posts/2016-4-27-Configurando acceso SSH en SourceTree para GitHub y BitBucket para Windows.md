@@ -10,7 +10,7 @@ title: Configurando acceso SSH en SourceTree para GitHub y Bitbucket para Window
 
 
 ###1) Ejecutar ssh-keygen
-```sh
+```
 $ shh-keygen
 ```
 
@@ -43,6 +43,7 @@ Enter same passphrase again:
 ###4) Finalmente...
 
 Si todo sale bien, se van a generar las llaves (publica y privada) y vas a ver lo siguiente:
+
 ```
 Your identification has been saved in /e/ssh/sourcetree_rsa.
 Your public key has been saved in /e/ssh/sourcetree_rsa.pub.
