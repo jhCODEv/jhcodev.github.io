@@ -69,7 +69,7 @@ The key's randomart image is:
 
 ## Crear un archivo de configuracion SSH
 
-Tenes que crear un archivo llamado **config** (si es que no existe) en el path 
+Tenes  que crear un archivo llamado **config** (si es que no existe) en el path 
 **C:/Users/your_user_name/.ssh/** con el siguiente contenido:
 
 ```
