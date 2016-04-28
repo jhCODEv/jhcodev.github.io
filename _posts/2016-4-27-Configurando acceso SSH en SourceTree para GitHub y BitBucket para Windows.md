@@ -9,12 +9,12 @@ title: Configurando acceso SSH en SourceTree para GitHub y Bitbucket para Window
 
 
 
-###1) Ejecutar ssh-keygen
+### 1) Ejecutar ssh-keygen
 ```
 $ shh-keygen
 ```
 
-###2) Indicar ubicacion y nombre de la llave
+### 2) Indicar ubicacion y nombre de la llave
 
 Nos va a pedir donde y como se van a llamar las llaves que se van a generar. 
 Si no indicas nada, va a guardar las llaves en la carpeta .ssh del usuario logueado y 
@@ -24,7 +24,7 @@ con el nombre id_rsa. En este caso le indico que lo grabe en E:\>ssh\sourcetre_r
 $ Enter file in which to save the key (/c/Users/your_user_name/.ssh/id_rsa): /e/ssh/sourcetree_rsa
 ```
 
-###3) Indicar passphrase
+### 3) Indicar passphrase
 
 Un passphrase es como un password pero mas largo, haciendolo mas seguro.
 Complementa la seguridad de la llave generada al ser requerida cada vez 
@@ -40,7 +40,7 @@ Enter passphrase (empty for no passphrase):
 Enter same passphrase again:  
 ```
 
-###4) Finalmente...
+### 4) Finalmente...
 
 Si todo sale bien, se van a generar las llaves (publica y privada) y vas a ver lo siguiente:
 
