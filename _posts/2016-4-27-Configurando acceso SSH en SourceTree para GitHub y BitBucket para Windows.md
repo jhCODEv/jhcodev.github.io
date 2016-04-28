@@ -62,7 +62,8 @@ The key's randomart image is:
 |........   ...   |
 +----[SHA256]-----+
 ```
-#### Resumiendo:
+
+#### 5) Todo en un GIF:
 
 ![_config.yml]({{ site.baseurl }}/images/201604271/1.gif)
 
