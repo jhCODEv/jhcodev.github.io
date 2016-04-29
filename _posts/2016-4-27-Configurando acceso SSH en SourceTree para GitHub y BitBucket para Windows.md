@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configurando acceso SSH en SourceTree para GitHub y Bitbucket para Windows
+title: Configurando acceso SSH en SourceTree para Bitbucket en Windows
 ---
 
 
@@ -78,8 +78,17 @@ Host bitbucket.org
 
 ![_config.yml]({{ site.baseurl }}/images/201604271/2.gif)
 
-## 3) Agregar la clave publica a GitHub o a Bitbucket
+## 3) Agregar la clave publica a Bitbucket
+
+Vas a tu avatar (en la esquina superior derecha) y clickeas en Bitbucket settings, 
+luego en la seccion de Security va a ver SSH Keys, clickea y vas a ver todas tus llaves
+publicas y la opcion de agregar una nueva.
+Click en Add New y te va a aparecer un form para agregar tu llave publica, completas los
+campos requeridos y listo. Tu llave publica ya esta cargada en Bitbucket. 
+
+![_config.yml]({{ site.baseurl }}/images/201604271/3.gif)
 
 ## 4) Configurar SourceTree con la llave privada
 
 
+![_config.yml]({{ site.baseurl }}/images/201604271/4.gif)
